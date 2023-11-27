@@ -40,6 +40,11 @@ main {
   border: 1px var(--gray-border) solid;
   border-radius: 5px;
   box-shadow: 0px 3px 5px #7d7e7e;
+  transition: all 1s ease-out;
+  cursor: pointer;
+}
+.edit-button :hover {
+  transform: scale(1.2);
 }
 .edit-icon {
   padding-left: 7px;
